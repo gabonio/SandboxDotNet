@@ -1,0 +1,6 @@
+C:\Users\gcruz\source\repos\SandBox\SandBox\bin\Debug\SandBox.dll
+C:\Users\gcruz\source\repos\SandBox\SandBox\bin\Debug\SandBox.pdb
+C:\Users\gcruz\source\repos\SandBox\SandBox\obj\Debug\SandBox.csproj.CoreCompileInputs.cache
+C:\Users\gcruz\source\repos\SandBox\SandBox\obj\Debug\SandBox.dll
+C:\Users\gcruz\source\repos\SandBox\SandBox\obj\Debug\SandBox.pdb
+C:\Users\gcruz\source\repos\SandBox\SandBox\obj\Debug\SandBox.csprojAssemblyReference.cache

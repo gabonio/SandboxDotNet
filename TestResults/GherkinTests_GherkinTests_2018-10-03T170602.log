@@ -1,0 +1,50 @@
+﻿2018-10-03T17:06:01.9214750+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.2 execution started
+2018-10-03T17:06:01.9264725+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\gcruz\source\repos\SandBox\packages\SpecRun.Runner.1.8.2\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-03T17:06:02.0684112+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\gcruz\source\repos\SandBox\GherkinTests\bin\Debug\GherkinTests.dll
+2018-10-03T17:06:02.0694104+02:00;VSTestExecutionThread;Info;Profile: GherkinTests
+2018-10-03T17:06:02.1373520+02:00;Thread#13;Info;Discovering target: Default
+2018-10-03T17:06:02.1373520+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\gcruz\source\repos\SandBox\GherkinTests\bin\Debug\GherkinTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: GherkinTests/GherkinTests - 
+#1: Default - 
+#2: GherkinTests - 
+#3: Calculator - 
+#9: Many summs - TestAssembly:GherkinTests/Feature:Calculator/Scenario:Many+summs
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for GherkinTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given the following table numbers and their sumatory results
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | first | second | result |
+Thread#0:B:  | 1     | 2      | 3      |
+Thread#0:B:  | 5     | 5      | 10     |
+Thread#0:B:  | -5    | 5      | 0      |
+Thread#0:T:done: CalculatorSteps.GivenTheFollowingTableNumbersAndTheirSumatoryResults(<table>) (0,0s)
+Thread#0:B:Then the result of all the summs must be correct
+Thread#0:T:done: CalculatorSteps.ThenTheResultOfAllTheSummsMustBeCorrect() (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 0,4157595 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

@@ -1,0 +1,149 @@
+﻿2018-10-03T16:47:26.9098601+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.2 execution started
+2018-10-03T16:47:26.9148572+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\gcruz\source\repos\SandBox\packages\SpecRun.Runner.1.8.2\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-03T16:47:27.0707473+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\gcruz\source\repos\SandBox\GherkinTests\bin\Debug\GherkinTests.dll
+2018-10-03T16:47:27.0707473+02:00;VSTestExecutionThread;Info;Profile: GherkinTests
+2018-10-03T16:47:27.1317117+02:00;Thread#13;Info;Discovering target: Default
+2018-10-03T16:47:27.1327109+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\gcruz\source\repos\SandBox\GherkinTests\bin\Debug\GherkinTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: GherkinTests/GherkinTests - 
+#1: Default - 
+#2: GherkinTests - 
+#3: Calculator - 
+#4: Add two numbers - TestAssembly:GherkinTests/Feature:Calculator/Scenario:Add+two+numbers
+#5: Add three numbers - TestAssembly:GherkinTests/Feature:Calculator/Scenario:Add+three+numbers
+#6: Mix operations - TestAssembly:GherkinTests/Feature:Calculator/Scenario:Mix+operations
+#7: Substract two numbers - TestAssembly:GherkinTests/Feature:Calculator/Scenario:Substract+two+numbers
+#8: Clear the results - TestAssembly:GherkinTests/Feature:Calculator/Scenario:Clear+the+results
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for GherkinTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I enter 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+Thread#0:B:And I press Add
+Thread#0:T:done: CalculatorSteps.GivenIPressAdd() (0,0s)
+Thread#0:B:And then I enter 70 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenThenIEnterIntoTheCalculator(70) (0,0s)
+Thread#0:B:When I press Equals
+Thread#0:T:done: CalculatorSteps.WhenIPressEquals() (0,0s)
+Thread#0:B:Then the result should be 120
+Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(120) (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0,4097841 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I enter 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+Thread#0:B:And I press Add
+Thread#0:T:done: CalculatorSteps.GivenIPressAdd() (0,0s)
+Thread#0:B:And I enter 70 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(70) (0,0s)
+Thread#0:B:And I press Add
+Thread#0:T:done: CalculatorSteps.GivenIPressAdd() (0,0s)
+Thread#0:B:And then I enter 80 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenThenIEnterIntoTheCalculator(80) (0,0s)
+Thread#0:B:When I press Equals
+Thread#0:T:done: CalculatorSteps.WhenIPressEquals() (0,0s)
+Thread#0:B:Then the result should be 200
+Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(200) (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0,0019961 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I enter 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+Thread#0:B:And I press Add
+Thread#0:T:done: CalculatorSteps.GivenIPressAdd() (0,0s)
+Thread#0:B:And I enter 70 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(70) (0,0s)
+Thread#0:B:And I press Add
+Thread#0:T:done: CalculatorSteps.GivenIPressAdd() (0,0s)
+Thread#0:B:And I enter 20 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(20) (0,0s)
+Thread#0:B:And I press Substract
+Thread#0:T:done: CalculatorSteps.GivenIPressSubstract() (0,0s)
+Thread#0:B:Then the result should be 100
+Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(100) (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0,0039997 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I enter 70 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(70) (0,0s)
+Thread#0:B:And I press Substract
+Thread#0:T:done: CalculatorSteps.GivenIPressSubstract() (0,0s)
+Thread#0:B:And I enter 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+Thread#0:B:When I press Equals
+Thread#0:T:done: CalculatorSteps.WhenIPressEquals() (0,0s)
+Thread#0:B:Then the result should be 20
+Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(20) (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0,002997 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:Given I enter 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0,0s)
+Thread#0:B:And I press Add
+Thread#0:T:done: CalculatorSteps.GivenIPressAdd() (0,0s)
+Thread#0:B:And then I enter 70 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenThenIEnterIntoTheCalculator(70) (0,0s)
+Thread#0:B:And I press Equals
+Thread#0:T:done: CalculatorSteps.GivenIPressEquals() (0,0s)
+Thread#0:B:When I press Clear
+Thread#0:T:done: CalculatorSteps.WhenIPressClear() (0,0s)
+Thread#0:B:Then the result should be 0
+Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(0) (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0,0069958 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 5
+Succeeded: 5
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
