@@ -103,6 +103,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Operations\ColorPrinting.cs" />
     <Compile Include="Operations\Printing.cs" />
     <Compile Include="Operations\Saving.cs" />
     <Compile Include="Operations\Tweeting.cs" />
