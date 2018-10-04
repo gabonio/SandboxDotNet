@@ -8,6 +8,7 @@ namespace GherkinTests.StepDefinitions
     public class CalculatorSteps
     {
         private Calculator calculator = new Calculator();
+        private Table sumatoryTable;
 
         #region Data entry
 
@@ -57,6 +58,12 @@ namespace GherkinTests.StepDefinitions
             calculator.Clear();
         }
 
+        [Given(@"I add a new number")]
+        public void GivenIAddANewNumber()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
 
         #endregion
 
@@ -67,6 +74,29 @@ namespace GherkinTests.StepDefinitions
         {
             Assert.AreEqual(expectedResult, calculator.Result);
         }
+
+        [Given(@"the following table numbers and their sumatory results")]
+        public void GivenTheFollowingTableNumbersAndTheirSumatoryResults(Table table)
+        {
+            sumatoryTable = table;
+
+        }
+
+        [Then(@"the result of all the summs must be correct")]
+        public void ThenTheResultOfAllTheSummsMustBeCorrect()
+        {
+            foreach (TableRow row in sumatoryTable.Rows)
+            {
+                calculator.Clear();
+                calculator.InputNumber = int.Parse(row[0]);
+                calculator.Add();
+                calculator.InputNumber = int.Parse(row[1]);
+                calculator.Equals();
+                Assert.AreEqual(int.Parse(row[2]), calculator.Result);
+
+            }
+        }
+
 
         #endregion
 
